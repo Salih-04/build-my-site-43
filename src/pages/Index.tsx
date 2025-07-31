@@ -5,16 +5,17 @@ import { Users, TrendingUp, MessageCircle, ArrowRight, CheckCircle, Star, Activi
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import heroImage from "@/assets/hero-cattle.jpg";
-import farmerTraining from "@/assets/farmer-training.jpg";
-import cattleFacility from "@/assets/cattle-facility.jpg";
-import marketLinkage from "@/assets/market-linkage.jpg";
+import farmerTraining from "/lovable-uploads/75eec144-cb5d-4ae1-9537-73e82852138e.png";
+import cattleFacility from "/lovable-uploads/bff5046c-f10a-45a7-b7e0-5731c0b8b7d3.png";
+import marketLinkage from "/lovable-uploads/6f1935fb-88ca-4011-be46-b5c8b0a6ec7c.png";
+import testimonialImage from "/lovable-uploads/51e9d36d-7ba4-45f6-9b96-469598617024.png";
 
 const Index = () => {
   const services = [
     {
       icon: Activity,
-      title: "Cattle Fattening",
-      description: "Professional livestock fattening services using modern techniques and quality feed.",
+      title: "Livestock Fattening",
+      description: "Supplying high quality fattened livestock, raised with modern technique and sustainable Practices",
       image: cattleFacility,
     },
     {
@@ -26,16 +27,15 @@ const Index = () => {
     {
       icon: TrendingUp,
       title: "Market Linkage",
-      description: "Connecting farmers with buyers, ensuring fair prices and sustainable markets.",
+      description: "connecting farmers with buyers, input suppliers, financial services and Veterinary care Providers.",
       image: marketLinkage,
     },
   ];
 
   const stats = [
-    { number: "500+", label: "Farmers Trained" },
-    { number: "1,200+", label: "Cattle Processed" },
-    { number: "50+", label: "Market Partners" },
-    { number: "95%", label: "Success Rate" },
+    { number: "100+", label: "Farmers Trained" },
+    { number: "1,100+", label: "Cattle, Sheep & Goat Supplied" },
+    { number: "20+", label: "Market Partners" },
   ];
 
   return (
@@ -53,7 +53,7 @@ const Index = () => {
         
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Empowering Ethiopian Agriculture
+            Empowering Africa's livestock
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
             Transforming livestock production through sustainable practices, 
@@ -92,7 +92,7 @@ const Index = () => {
       <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-foreground mb-4">Our Services</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-4">Our Product and Services</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Comprehensive solutions for sustainable livestock production and farmer empowerment
             </p>
@@ -138,7 +138,7 @@ const Index = () => {
             <div>
               <h2 className="text-4xl font-bold text-foreground mb-6">About AgroLivex</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                We are dedicated to transforming Ethiopia's livestock sector through 
+                We are dedicated to transforming Africa's livestock sector through 
                 innovative practices, comprehensive training, and sustainable market solutions.
               </p>
               <div className="space-y-4 mb-8">
@@ -163,7 +163,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src={farmerTraining} 
+                src={testimonialImage} 
                 alt="Farmer training session"
                 className="rounded-lg shadow-lg"
               />
@@ -182,11 +182,11 @@ const Index = () => {
               ))}
             </div>
             <blockquote className="text-2xl font-medium text-foreground mb-6">
-              "AgroLivex transformed our farming operations. Their training and support 
-              helped us triple our cattle production while maintaining quality."
+              "AgroLivex Transformed out farming operations. Their training and support 
+              helped us to reduce Feeding costs and improve productivity while maintaining quality."
             </blockquote>
             <cite className="text-muted-foreground">
-              - Almaz Tadesse, Smallholder Farmer
+              - Nursa Khedir, Smallholder Farmer
             </cite>
           </div>
         </div>

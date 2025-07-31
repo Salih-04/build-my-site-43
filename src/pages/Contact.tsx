@@ -64,7 +64,7 @@ const Contact = () => {
     });
   };
 
-  const whatsappNumber = "+251911234567"; // Replace with actual number
+  const whatsappNumber = "+251904795093";
   const whatsappMessage = encodeURIComponent("Hello AgroLivex, I'm interested in your services.");
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
@@ -100,8 +100,7 @@ const Contact = () => {
                       <Phone className="h-8 w-8 text-primary" />
                       <div>
                         <h3 className="font-semibold text-foreground">Phone</h3>
-                        <p className="text-muted-foreground">+251 11 123 4567</p>
-                        <p className="text-muted-foreground">+251 91 123 4567</p>
+                        <p className="text-muted-foreground">+251904795093</p>
                       </div>
                     </div>
                   </CardContent>
@@ -113,8 +112,7 @@ const Contact = () => {
                       <Mail className="h-8 w-8 text-primary" />
                       <div>
                         <h3 className="font-semibold text-foreground">Email</h3>
-                        <p className="text-muted-foreground">info@agrolivex.com</p>
-                        <p className="text-muted-foreground">support@agrolivex.com</p>
+                        <p className="text-muted-foreground">agrolivex1@gmail.com</p>
                       </div>
                     </div>
                   </CardContent>
@@ -126,8 +124,7 @@ const Contact = () => {
                       <MapPin className="h-8 w-8 text-primary" />
                       <div>
                         <h3 className="font-semibold text-foreground">Office</h3>
-                        <p className="text-muted-foreground">Bole Road, Addis Ababa</p>
-                        <p className="text-muted-foreground">Ethiopia</p>
+                        <p className="text-muted-foreground">Mojo, Ethiopia</p>
                       </div>
                     </div>
                   </CardContent>
@@ -220,7 +217,7 @@ const Contact = () => {
                             <SelectValue placeholder="Select a service" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="cattle-fattening">Cattle Fattening</SelectItem>
+                            <SelectItem value="livestock-fattening">Livestock Fattening</SelectItem>
                             <SelectItem value="farmer-training">Farmer Training</SelectItem>
                             <SelectItem value="market-linkage">Market Linkage</SelectItem>
                             <SelectItem value="consulting">Consulting</SelectItem>
@@ -281,11 +278,11 @@ const Contact = () => {
 
             <Card>
               <CardHeader>
-                <CardTitle>What is the cost of cattle fattening services?</CardTitle>
+                <CardTitle>What is the cost of livestock fattening services?</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Costs vary based on the number of cattle and duration. 
+                  Costs vary based on the number of livestock and duration. 
                   Contact us for a personalized quote based on your specific requirements.
                 </CardDescription>
               </CardContent>
@@ -309,7 +306,7 @@ const Contact = () => {
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  We currently operate in multiple regions across Ethiopia. 
+                  We currently operate in multiple regions across Africa. 
                   Contact us to discuss service availability in your area.
                 </CardDescription>
               </CardContent>

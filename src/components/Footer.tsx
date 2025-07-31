@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Leaf, Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,25 +9,28 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Leaf className="h-8 w-8" />
-              <span className="text-xl font-bold">AgroLivex</span>
+              <img 
+                src="/lovable-uploads/e7ae4a6f-2a34-4e3c-a11b-c55f903b8f99.png" 
+                alt="AgroLivex Logo" 
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-primary-foreground/80 mb-4 max-w-md">
-              Empowering Ethiopian farmers through sustainable livestock production, 
+              Empowering African farmers through sustainable livestock production, 
               training, and market connections for a thriving agricultural future.
             </p>
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>+251 11 123 4567</span>
+                <span>+251904795093</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>info@agrolivex.com</span>
+                <span>agrolivex1@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>Addis Ababa, Ethiopia</span>
+                <span>Mojo, Ethiopia</span>
               </div>
             </div>
           </div>
@@ -63,7 +66,7 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li className="text-primary-foreground/80">Cattle Fattening</li>
+              <li className="text-primary-foreground/80">Livestock Fattening</li>
               <li className="text-primary-foreground/80">Farmer Training</li>
               <li className="text-primary-foreground/80">Market Linkage</li>
               <li className="text-primary-foreground/80">Consulting</li>

@@ -11,7 +11,7 @@ const About = () => {
     {
       icon: Target,
       title: "Mission-Driven",
-      description: "Committed to transforming Ethiopia's livestock sector through sustainable practices.",
+      description: "Committed to transforming Africa's livestock sector through sustainable practices.",
     },
     {
       icon: Heart,
@@ -40,7 +40,7 @@ const About = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold text-foreground mb-6">About AgroLivex</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We are dedicated to transforming Ethiopia's livestock sector through 
+              We are dedicated to transforming Africa's livestock sector through 
               innovative practices, comprehensive training, and sustainable market solutions.
             </p>
           </div>
@@ -54,15 +54,15 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold text-foreground mb-6">Our Mission</h2>
               <p className="text-lg text-muted-foreground mb-6">
-                To empower Ethiopian smallholder farmers through sustainable livestock 
+                To empower smallholder farmers through sustainable livestock 
                 production, comprehensive training programs, and reliable market connections 
                 that improve livelihoods and food security.
               </p>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
               <p className="text-lg text-muted-foreground">
-                To be the leading catalyst for agricultural transformation in Ethiopia, 
+                To be the leading catalyst for agricultural transformation in Africa, 
                 creating a thriving livestock sector that benefits farmers, communities, 
-                and the nation's economy.
+                and the Continent's economy.
               </p>
             </div>
             <div className="relative">
@@ -82,7 +82,7 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-foreground mb-4">Our Values</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              The principles that guide our work and define our commitment to Ethiopian agriculture
+              The principles that guide our work and define our commitment to African agriculture
             </p>
           </div>
           
@@ -115,12 +115,12 @@ const About = () => {
           
           <div className="prose prose-lg mx-auto text-muted-foreground">
             <p className="text-lg mb-6">
-              AgroLivex was founded with a simple yet powerful vision: to transform Ethiopia's 
-              livestock sector and improve the livelihoods of smallholder farmers across the country.
+              AgroLivex was founded with a simple yet powerful vision: to transform Africa's 
+              livestock sector and improve the livelihoods of smallholder farmers across the continent.
             </p>
             
             <p className="text-lg mb-6">
-              Recognizing the challenges faced by Ethiopian farmers - from lack of modern 
+              Recognizing the challenges faced by African farmers - from lack of modern 
               techniques to limited market access - our founders brought together expertise 
               in agriculture, business development, and community engagement to create 
               comprehensive solutions.
@@ -134,7 +134,7 @@ const About = () => {
             
             <p className="text-lg">
               Our approach combines traditional knowledge with modern techniques, ensuring 
-              that our programs are both effective and culturally appropriate for Ethiopian 
+              that our programs are both effective and culturally appropriate for African 
               farming communities.
             </p>
           </div>
@@ -200,7 +200,7 @@ const About = () => {
           <h2 className="text-4xl font-bold mb-6">Join Our Mission</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Whether you're a farmer, investor, or partner organization, 
-            we invite you to be part of Ethiopia's agricultural transformation.
+            we invite you to be part of Africa's agricultural transformation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" variant="secondary">
