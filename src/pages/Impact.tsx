@@ -64,7 +64,7 @@ const Impact = () => {
     },
     {
       title: "livestock fattening success",
-      description: "more than 1000 livestock fattened in part 6 months demonstrated the effectiveness of our approach with measurable outcomes.",
+      description: "more than 1000 livestock fattened in past 6 months demonstrated the effectiveness of our approach with measurable outcomes.",
       results: [
         "1,100+ livestock successfully fattened and supplied",
         "tested &  Proved our cost effective and methane emission reduction techniques",

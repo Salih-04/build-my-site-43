@@ -66,10 +66,11 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li className="text-primary-foreground/80">Livestock Fattening</li>
+              <li className="text-primary-foreground/80">Livestock Supply</li>
               <li className="text-primary-foreground/80">Farmer Training</li>
-              <li className="text-primary-foreground/80">Market Linkage</li>
-              <li className="text-primary-foreground/80">Consulting</li>
+              <li className="text-primary-foreground/80">Market linkage</li>
+              <li className="text-primary-foreground/80">Advisory service</li>
+              <li className="text-primary-foreground/80">Access to Finance</li>
             </ul>
           </div>
         </div>
