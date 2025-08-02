@@ -9,80 +9,66 @@ const Impact = () => {
   const stats = [
     {
       icon: Users,
-      number: "500+",
+      number: "100+",
       label: "Farmers Trained",
-      description: "Smallholder farmers equipped with modern livestock management skills"
+      description: "small holder farmers trained with cost effective, Methane emission reduction and modern livestock managemet techniques"
     },
     {
       icon: TrendingUp,
-      number: "1,200+",
-      label: "Cattle Processed",
+      number: "1,100+",
+      label: "Cattle, Sheep & goat supplied",
       description: "Livestock successfully fattened and prepared for market"
     },
     {
       icon: Award,
-      number: "50+",
+      number: "20+",
       label: "Market Partners",
       description: "Reliable buyers and market connections established"
-    },
-    {
-      icon: Star,
-      number: "95%",
-      label: "Success Rate",
-      description: "Farmers reporting increased income and productivity"
     },
   ];
 
   const testimonials = [
     {
-      name: "Almaz Tadesse",
+      name: "Nursa Khedir",
       role: "Smallholder Farmer",
       location: "Oromia Region",
-      quote: "AgroLivex transformed our farming operations. Their training and support helped us triple our cattle production while maintaining quality. My family's income has increased significantly.",
+      quote: "AgroLivex Transformed out farming operations. Their training and support helped us to reduce Feeding costs and improve productivity while maintaining quality.",
       rating: 5
     },
     {
-      name: "Bekele Hailu",
-      role: "Livestock Trader",
+      name: "Assefa Hailu",
+      role: "Butcher",
       location: "Addis Ababa",
-      quote: "The quality of cattle from AgroLivex farmers is consistently excellent. Their fattening program produces healthy, market-ready livestock that our customers prefer.",
+      quote: "The quality of Cattle from Agrolivex is consistently excellent. Their Cattle Fattening Provides healthy, market ready livestock that our customers Prefer.",
       rating: 5
     },
     {
-      name: "Meron Assefa",
-      role: "Agricultural Cooperative Leader",
-      location: "SNNP Region",
-      quote: "Our cooperative has partnered with AgroLivex for two years. Their training programs have empowered our members with knowledge and confidence to improve their livelihoods.",
-      rating: 5
-    },
-    {
-      name: "Dr. Yonas Mekonnen",
+      name: "Dr Bekele Abera",
       role: "Veterinarian",
-      location: "Amhara Region",
-      quote: "The health protocols and feeding practices promoted by AgroLivex are scientifically sound. I've seen remarkable improvements in animal health and productivity.",
+      location: "oromia Region",
+      quote: "The Feeding techniques and sustainable Practices Promoted by Agrolivex are scientifically sound. I've seen remarkable improvements in animal health and productivity.",
       rating: 5
     }
   ];
 
   const caseStudies = [
     {
-      title: "Doubling Income in Rural Oromia",
-      description: "How farmer training and market linkage helped a community cooperative increase their average income by 120% in one year.",
+      title: "improving income and animal Productivity in Rural oromia",
+      description: "How farmer training and market linkage helped Small holder farmers increase their income and animal productivity",
       results: [
-        "25 farmers trained in modern techniques",
-        "120% increase in average income",
-        "Established direct market connections",
-        "Reduced livestock mortality by 40%"
+        "more than 100 farmers trained in cost effective and Methane emission reduction techniques",
+        "increased income and animal productivity",
+        "Established direct market Connections",
+        "improved awareness in sustainable Practices"
       ]
     },
     {
-      title: "Sustainable Fattening Program Success",
-      description: "A 6-month cattle fattening program that demonstrated the effectiveness of our approach with measurable outcomes.",
+      title: "livestock fattening success",
+      description: "more than 1000 livestock fattened in part 6 months demonstrated the effectiveness of our approach with measurable outcomes.",
       results: [
-        "200 cattle successfully fattened",
-        "Average weight gain of 35kg per animal",
-        "98% survival rate",
-        "Premium prices achieved at market"
+        "1,100+ livestock successfully fattened and supplied",
+        "tested &  Proved our cost effective and methane emission reduction techniques",
+        "affordable and competitive prices at Market"
       ]
     }
   ];
@@ -208,38 +194,38 @@ const Impact = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-foreground mb-4">Our Journey</h2>
             <p className="text-xl text-muted-foreground">
-              Key milestones in our mission to transform Ethiopian agriculture
+              key Milestones in African agriculture
             </p>
           </div>
           
           <div className="space-y-8">
             <div className="flex items-center space-x-6">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold">
-                2022
+              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-sm">
+                2024,Q4
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-foreground">AgroLivex Founded</h3>
-                <p className="text-muted-foreground">Started with a vision to transform Ethiopian livestock sector</p>
+                <p className="text-muted-foreground">Started with a vision to African livestock sector</p>
               </div>
             </div>
             
             <div className="flex items-center space-x-6">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold">
-                2023
+              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-sm">
+                2025,Q1
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-foreground">First Training Programs</h3>
-                <p className="text-muted-foreground">Launched comprehensive farmer training in 3 regions</p>
+                <p className="text-muted-foreground">Launched farmer training</p>
               </div>
             </div>
             
             <div className="flex items-center space-x-6">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold">
-                2024
+              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-sm">
+                2025,Q3
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-foreground">Expanding Impact</h3>
-                <p className="text-muted-foreground">500+ farmers trained, 1,200+ cattle processed, growing network</p>
+                <p className="text-muted-foreground">100+ farmers trained, 1,100+ livestock supplied, growing network</p>
               </div>
             </div>
           </div>
@@ -251,7 +237,7 @@ const Impact = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">Be Part of Our Impact</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Join us in creating positive change in Ethiopian agriculture. 
+            Join us in creating positive change in African agriculture. 
             Together, we can build a more prosperous rural future.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Users, TrendingUp, MessageCircle, ArrowRight, CheckCircle, Star, Activity } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import CountableStats from "@/components/CountableStats";
 import heroImage from "@/assets/hero-cattle.jpg";
 import farmerTraining from "/lovable-uploads/75eec144-cb5d-4ae1-9537-73e82852138e.png";
 import cattleFacility from "/lovable-uploads/bff5046c-f10a-45a7-b7e0-5731c0b8b7d3.png";
@@ -46,7 +47,7 @@ const Index = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroImage})` }}
+          style={{ backgroundImage: `url(/lovable-uploads/f8ba123c-088d-4128-9549-e7b6e1899edc.png)` }}
         >
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
@@ -77,14 +78,7 @@ const Index = () => {
       {/* Stats Section */}
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl md:text-5xl font-bold mb-2">{stat.number}</div>
-                <div className="text-primary-foreground/80">{stat.label}</div>
-              </div>
-            ))}
-          </div>
+          <CountableStats stats={stats} />
         </div>
       </section>
 

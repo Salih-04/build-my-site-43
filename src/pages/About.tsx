@@ -67,7 +67,7 @@ const About = () => {
             </div>
             <div className="relative">
               <img 
-                src={farmerTraining} 
+                src="/lovable-uploads/91000936-282e-491c-b269-7a565105e6dd.png" 
                 alt="Our mission in action"
                 className="rounded-lg shadow-lg"
               />
@@ -154,39 +154,37 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="text-center">
               <CardHeader>
-                <CardTitle>Dr. Bekele Megersa</CardTitle>
+                <CardTitle>Salih Mubarek</CardTitle>
                 <CardDescription>Founder & CEO</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  15+ years in agricultural development and livestock management. 
-                  PhD in Animal Science from Addis Ababa University.
+                  5+ years in Agricultural development and livestock Management. 
+                  BSC in Anesthesia from Menelik ll Medical and Health science college.
                 </p>
               </CardContent>
             </Card>
             
             <Card className="text-center">
               <CardHeader>
-                <CardTitle>Sarah Johnson</CardTitle>
-                <CardDescription>Operations Director</CardDescription>
+                <CardTitle>Abdelah Nasir</CardTitle>
+                <CardDescription>Project coordinator & Field operations Lead</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  International development expert with focus on sustainable 
-                  agriculture and farmer training programs.
+                  Agricultural expert with a strong background in agribusiness consulting and Farmer Focused Project implementation. specializes in field operations, rural outreach and connecting Smallholders with inputs and services.
                 </p>
               </CardContent>
             </Card>
             
             <Card className="text-center">
               <CardHeader>
-                <CardTitle>Alemayehu Tadesse</CardTitle>
-                <CardDescription>Training Coordinator</CardDescription>
+                <CardTitle>Fedlu Temam</CardTitle>
+                <CardDescription>Finances & operations Lead</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Former extension agent with deep knowledge of Ethiopian 
-                  farming practices and community engagement.
+                  Finance and logistics expert with farming roots and a strong background in public sector coordination.
                 </p>
               </CardContent>
             </Card>
@@ -210,7 +208,7 @@ const About = () => {
             </Button>
             <Button asChild size="lg" variant="outline" className="bg-white/10 text-white border-white hover:bg-white hover:text-primary">
               <Link to="/services">
-                Our Services
+                Livestock Supply, Farmer Training, Market linkage, Advisery service, Access to Finance
               </Link>
             </Button>
           </div>

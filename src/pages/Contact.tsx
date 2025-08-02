@@ -217,12 +217,13 @@ const Contact = () => {
                             <SelectValue placeholder="Select a service" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="livestock-fattening">Livestock Fattening</SelectItem>
+                            <SelectItem value="livestock-supply">livestock supply</SelectItem>
                             <SelectItem value="farmer-training">Farmer Training</SelectItem>
-                            <SelectItem value="market-linkage">Market Linkage</SelectItem>
-                            <SelectItem value="consulting">Consulting</SelectItem>
+                            <SelectItem value="market-access">Market Access</SelectItem>
+                            <SelectItem value="financial-service">Financial service</SelectItem>
+                            <SelectItem value="advisory-service">Advisory Service</SelectItem>
                             <SelectItem value="partnership">Partnership</SelectItem>
-                            <SelectItem value="other">Other</SelectItem>
+                            <SelectItem value="other">other</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -253,67 +254,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-20 bg-secondary">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-foreground mb-4">Frequently Asked Questions</h2>
-            <p className="text-xl text-muted-foreground">
-              Common questions about our services and how we can help you
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Card>
-              <CardHeader>
-                <CardTitle>How long does the training program take?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Our comprehensive farmer training programs typically run for 2-4 weeks, 
-                  depending on the specific curriculum and your needs.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>What is the cost of livestock fattening services?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Costs vary based on the number of livestock and duration. 
-                  Contact us for a personalized quote based on your specific requirements.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Do you provide financing options?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  We work with various partners to provide financing options for farmers. 
-                  We can help connect you with appropriate funding sources.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Which regions do you serve?</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  We currently operate in multiple regions across Africa. 
-                  Contact us to discuss service availability in your area.
-                </CardDescription>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>

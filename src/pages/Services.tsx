@@ -12,48 +12,39 @@ const Services = () => {
   const services = [
     {
       icon: Activity,
-      title: "Cattle Fattening",
-      description: "Professional livestock fattening services using modern techniques and quality feed.",
-      image: cattleFacility,
+      title: "Livestock Supply",
+      description: "fatten and supply high quality livestock, raised with modern technique and Sustainable Practices.",
+      image: "/lovable-uploads/06633a56-cb23-469a-84cc-7acf38e3477f.png",
       features: [
-        "Modern feeding techniques",
-        "Quality feed supplementation",
-        "Veterinary support",
-        "Growth monitoring",
-        "Market-ready conditioning"
-      ],
-      duration: "3-6 months",
-      capacity: "Up to 200 cattle"
+        "supply high quality cattle",
+        "Supply high quality Sheep",
+        "Supply high quality goat"
+      ]
     },
     {
       icon: Users,
       title: "Farmer Training",
-      description: "Comprehensive training programs for smallholder farmers on best practices.",
-      image: farmerTraining,
+      description: "Comprehensive training programs for Smallholder farmers and livestock business on best practices",
+      image: "/lovable-uploads/4d2de554-0d93-469e-ba7a-b99cf67a4abd.png",
       features: [
-        "Livestock management training",
-        "Feed preparation techniques",
-        "Disease prevention & treatment",
-        "Record keeping systems",
-        "Business planning"
-      ],
-      duration: "2-4 weeks",
-      capacity: "20-30 farmers per session"
+        "cost effective feeding techniques",
+        "Methane emission reduction techniques",
+        "Disease Prevention",
+        "Feed Preparation techniques",
+        "Business Planning"
+      ]
     },
     {
       icon: TrendingUp,
-      title: "Market Linkage",
-      description: "Connecting farmers with buyers, ensuring fair prices and sustainable markets.",
-      image: marketLinkage,
+      title: "Market linkage & connection",
+      description: "connecting Farmers with buyers, input suppliers, Financial services and veternery care providers.",
+      image: "/lovable-uploads/ff88e377-1b56-490a-8376-696eeb757004.png",
       features: [
         "Buyer network access",
-        "Price negotiation support",
-        "Quality certification",
-        "Transportation coordination",
-        "Payment facilitation"
-      ],
-      duration: "Ongoing support",
-      capacity: "Unlimited farmers"
+        "Access to input Suppliers",
+        "Access to Financial services",
+        "Transportation Coordination"
+      ]
     },
   ];
 
@@ -91,16 +82,6 @@ const Services = () => {
                     {service.description}
                   </p>
                   
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                    <div className="flex items-center space-x-2">
-                      <Clock className="h-5 w-5 text-primary" />
-                      <span className="text-sm">Duration: {service.duration}</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Users className="h-5 w-5 text-primary" />
-                      <span className="text-sm">Capacity: {service.capacity}</span>
-                    </div>
-                  </div>
                   
                   <div className="space-y-3 mb-8">
                     <h3 className="text-xl font-semibold text-foreground">Key Features:</h3>
@@ -138,7 +119,7 @@ const Services = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-foreground mb-4">Our Process</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              A structured approach to ensure the best outcomes for our clients
+              A Structured approach to ensure the best services for our clients
             </p>
           </div>
           
@@ -153,9 +134,6 @@ const Services = () => {
                 <CardTitle>Assessment</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
-                  We evaluate your current situation and identify opportunities for improvement.
-                </CardDescription>
               </CardContent>
             </Card>
             
@@ -169,9 +147,6 @@ const Services = () => {
                 <CardTitle>Planning</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
-                  We develop a customized plan tailored to your specific needs and goals.
-                </CardDescription>
               </CardContent>
             </Card>
             
@@ -185,9 +160,6 @@ const Services = () => {
                 <CardTitle>Implementation</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
-                  We work together to implement the plan with hands-on support and guidance.
-                </CardDescription>
               </CardContent>
             </Card>
             
@@ -201,9 +173,6 @@ const Services = () => {
                 <CardTitle>Follow-up</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
-                  We provide ongoing support and monitoring to ensure sustained success.
-                </CardDescription>
               </CardContent>
             </Card>
           </div>
