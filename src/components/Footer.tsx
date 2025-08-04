@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Youtube, Twitter, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -31,6 +31,49 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
                 <span>Mojo, Ethiopia</span>
+              </div>
+            </div>
+            
+            {/* Social Media Icons */}
+            <div className="mt-6">
+              <h4 className="font-semibold mb-3">Follow Us</h4>
+              <div className="flex space-x-4">
+                <a 
+                  href="https://facebook.com/agrolivex" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  aria-label="Follow us on Facebook"
+                >
+                  <Facebook className="h-5 w-5" />
+                </a>
+                <a 
+                  href="https://youtube.com/@agrolivex" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  aria-label="Subscribe to our YouTube channel"
+                >
+                  <Youtube className="h-5 w-5" />
+                </a>
+                <a 
+                  href="https://twitter.com/agrolivex" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  aria-label="Follow us on Twitter/X"
+                >
+                  <Twitter className="h-5 w-5" />
+                </a>
+                <a 
+                  href="https://instagram.com/agrolivex" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                  aria-label="Follow us on Instagram"
+                >
+                  <Instagram className="h-5 w-5" />
+                </a>
               </div>
             </div>
           </div>
