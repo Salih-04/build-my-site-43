@@ -9,6 +9,7 @@ import { Phone, Mail, MapPin, MessageCircle, Clock, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const { toast } = useToast();
@@ -35,7 +36,7 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     // Basic validation
@@ -48,20 +49,51 @@ const Contact = () => {
       return;
     }
 
-    // Simulate form submission
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for contacting us. We'll get back to you within 24 hours.",
-    });
+    try {
+      // Send email using EmailJS
+      const emailParams = {
+        to_email: 'agrolivex1@gmail.com',
+        from_name: formData.name,
+        from_email: formData.email,
+        phone: formData.phone || 'Not provided',
+        service: formData.service || 'Not specified',
+        message: formData.message,
+        reply_to: formData.email
+      };
 
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      service: "",
-      message: ""
-    });
+      // Using a simple mailto link as fallback for now
+      const subject = encodeURIComponent(`Contact Form: ${formData.service || 'General Inquiry'}`);
+      const body = encodeURIComponent(
+        `Name: ${formData.name}\n` +
+        `Email: ${formData.email}\n` +
+        `Phone: ${formData.phone || 'Not provided'}\n` +
+        `Service Interest: ${formData.service || 'Not specified'}\n\n` +
+        `Message:\n${formData.message}`
+      );
+      
+      const mailtoLink = `mailto:agrolivex1@gmail.com?subject=${subject}&body=${body}`;
+      window.open(mailtoLink, '_blank');
+
+      toast({
+        title: "Email Client Opened!",
+        description: "Your default email client should open with the message pre-filled. Please send the email from there.",
+      });
+
+      // Reset form
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        service: "",
+        message: ""
+      });
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "There was an issue sending your message. Please try again or contact us directly.",
+        variant: "destructive"
+      });
+    }
   };
 
   const whatsappNumber = "+251904795093";
