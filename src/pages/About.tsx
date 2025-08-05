@@ -155,7 +155,7 @@ const About = () => {
             <Card className="text-center">
               <CardHeader>
                 <CardTitle>Salih Mubarek</CardTitle>
-                <CardDescription>Founder & CEO</CardDescription>
+                <CardDescription>Co-founder & CEO</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
@@ -168,7 +168,7 @@ const About = () => {
             <Card className="text-center">
               <CardHeader>
                 <CardTitle>Abdelah Nasir</CardTitle>
-                <CardDescription>Project coordinator & Field operations Lead</CardDescription>
+                <CardDescription>Co-founder, project coordinator & Field operations Lead</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
@@ -180,7 +180,7 @@ const About = () => {
             <Card className="text-center">
               <CardHeader>
                 <CardTitle>Fedlu Temam</CardTitle>
-                <CardDescription>Finances & operations Lead</CardDescription>
+                <CardDescription>Co-founder, Finances & operations Lead</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">

@@ -39,7 +39,7 @@ const Footer = () => {
               <h4 className="font-semibold mb-3">Follow Us</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://facebook.com/agrolivex" 
+                  href="https://www.facebook.com/share/14GB5vA3QDA/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
@@ -48,7 +48,7 @@ const Footer = () => {
                   <Facebook className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://youtube.com/@agrolivex" 
+                  href="https://youtube.com/@agrolivex?si=ArN9B-Nvc0ydzyH9" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
@@ -57,7 +57,7 @@ const Footer = () => {
                   <Youtube className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://twitter.com/agrolivex" 
+                  href="https://x.com/MubarekSal94605?s=09" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
@@ -66,7 +66,7 @@ const Footer = () => {
                   <Twitter className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://instagram.com/agrolivex" 
+                  href="https://www.instagram.com/agrolivex1?igsh=MWsxM2s0enNnaXJ2ZA==" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
