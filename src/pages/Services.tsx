@@ -25,7 +25,7 @@ const Services = () => {
       icon: Users,
       title: "Farmer Training",
       description: "Comprehensive training programs for Smallholder farmers and livestock business on best practices",
-      image: "/lovable-uploads/4d2de554-0d93-469e-ba7a-b99cf67a4abd.png",
+      image: "/lovable-uploads/farmer-training-new.jpg",
       features: [
         "cost effective feeding techniques",
         "Methane emission reduction techniques",
@@ -36,14 +36,14 @@ const Services = () => {
     },
     {
       icon: TrendingUp,
-      title: "Market linkage & connection",
-      description: "connecting Farmers with buyers, input suppliers, Financial services and veternery care providers.",
-      image: "/lovable-uploads/ff88e377-1b56-490a-8376-696eeb757004.png",
+      title: "Market linkage & connection through digital Platform",
+      description: "Legebere digital Platform that connects Livestock farmers with markets, input suppliers, Financial services, veterinary care providers, and educational content",
+      image: "/lovable-uploads/legebere-logo.png",
       features: [
         "Buyer network access",
         "Access to input Suppliers",
         "Access to Financial services",
-        "Transportation Coordination"
+        "Educational content"
       ]
     },
   ];

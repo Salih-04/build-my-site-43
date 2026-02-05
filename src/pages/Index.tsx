@@ -23,13 +23,13 @@ const Index = () => {
       icon: Users,
       title: "Farmer Training",
       description: "Comprehensive training programs for smallholder farmers on best practices.",
-      image: farmerTraining,
+      image: "/lovable-uploads/farmer-training-new.jpg",
     },
     {
       icon: TrendingUp,
-      title: "Market Linkage",
-      description: "connecting farmers with buyers, input suppliers, financial services and Veterinary care Providers.",
-      image: marketLinkage,
+      title: "E-commerce and E-learning Platform",
+      description: "Legebere digital Platform that connects Livestock farmers with markets, input suppliers, Financial services, veterinary care providers, and educational content to help them grow sustainably and increase their income",
+      image: "/lovable-uploads/legebere-logo.png",
     },
   ];
 
@@ -47,14 +47,14 @@ const Index = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(/lovable-uploads/f8ba123c-088d-4128-9549-e7b6e1899edc.png)` }}
+          style={{ backgroundImage: `url(/lovable-uploads/hero-cattle-new.jpg)` }}
         >
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
         
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Empowering Africa's livestock
+            Empowering Africans livestock farmers
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
             Transforming livestock production through sustainable practices, 
@@ -157,7 +157,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src={testimonialImage} 
+                src="/lovable-uploads/farmer-training-new.jpg" 
                 alt="Farmer training session"
                 className="rounded-lg shadow-lg"
               />
