@@ -23,7 +23,7 @@ const Impact = () => {
       icon: Award,
       number: "20+",
       label: "Market Partners",
-      description: "Reliable buyers and market connections established"
+      description: "Strategic market connections and Stakeholder Partnerships established"
     },
   ];
 
@@ -64,7 +64,7 @@ const Impact = () => {
     },
     {
       title: "livestock fattening success",
-      description: "more than 1000 livestock fattened in past 6 months demonstrated the effectiveness of our approach with measurable outcomes.",
+      description: "more than 1000 livestock fattened in past 9 months demonstrated the effectiveness of our approach with measurable outcomes.",
       results: [
         "1,100+ livestock successfully fattened and supplied",
         "tested &  Proved our cost effective and methane emission reduction techniques",
@@ -201,7 +201,7 @@ const Impact = () => {
           <div className="space-y-8">
             <div className="flex items-center space-x-6">
               <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-sm">
-                2024,Q4
+                2025
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-foreground">AgroLivex Founded</h3>
@@ -211,7 +211,7 @@ const Impact = () => {
             
             <div className="flex items-center space-x-6">
               <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-sm">
-                2025,Q1
+                2025
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-foreground">First Training Programs</h3>
@@ -221,7 +221,7 @@ const Impact = () => {
             
             <div className="flex items-center space-x-6">
               <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-sm">
-                2025,Q3
+                2026
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-foreground">Expanding Impact</h3>

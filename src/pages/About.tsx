@@ -67,7 +67,7 @@ const About = () => {
             </div>
             <div className="relative">
               <img 
-                src="/lovable-uploads/91000936-282e-491c-b269-7a565105e6dd.png" 
+                src="/lovable-uploads/farmer-training-new.jpg" 
                 alt="Our mission in action"
                 className="rounded-lg shadow-lg"
               />
@@ -155,7 +155,7 @@ const About = () => {
             <Card className="text-center">
               <CardHeader>
                 <CardTitle>Salih Mubarek</CardTitle>
-                <CardDescription>Co-founder & CEO</CardDescription>
+                <CardDescription>Founder & CEO</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
@@ -168,7 +168,7 @@ const About = () => {
             <Card className="text-center">
               <CardHeader>
                 <CardTitle>Abdelah Nasir</CardTitle>
-                <CardDescription>Co-founder, project coordinator & Field operations Lead</CardDescription>
+                <CardDescription>Project coordinator & Agricultural advisory lead</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
@@ -180,7 +180,7 @@ const About = () => {
             <Card className="text-center">
               <CardHeader>
                 <CardTitle>Fedlu Temam</CardTitle>
-                <CardDescription>Co-founder, Finances & operations Lead</CardDescription>
+                <CardDescription>Finance & operations lead</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
