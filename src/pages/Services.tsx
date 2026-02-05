@@ -25,7 +25,7 @@ const Services = () => {
       icon: Users,
       title: "Farmer Training",
       description: "Comprehensive training programs for Smallholder farmers and livestock business on best practices",
-      image: "/lovable-uploads/farmer-training-new.jpg",
+      image: "/lovable-uploads/farmer-training-service.jpg",
       features: [
         "cost effective feeding techniques",
         "Methane emission reduction techniques",
