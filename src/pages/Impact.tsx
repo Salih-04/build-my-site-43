@@ -17,7 +17,7 @@ const Impact = () => {
       icon: TrendingUp,
       number: "1,100+",
       label: "Cattle, Sheep & goat supplied",
-      description: "Livestock successfully fattened and prepared for market"
+      description: "Livestock successfully supplied for market"
     },
     {
       icon: Award,
@@ -63,10 +63,10 @@ const Impact = () => {
       ]
     },
     {
-      title: "livestock fattening success",
-      description: "more than 1000 livestock fattened in past 9 months demonstrated the effectiveness of our approach with measurable outcomes.",
+      title: "livestock supply success",
+      description: "more than 1000 livestock improved in past 9 months demonstrated the effectiveness of our approach with measurable outcomes.",
       results: [
-        "1,100+ livestock successfully fattened and supplied",
+        "1,100+ livestock improved and supplied",
         "tested &  Proved our cost effective and methane emission reduction techniques",
         "affordable and competitive prices at Market"
       ]
