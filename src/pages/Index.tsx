@@ -15,8 +15,8 @@ const Index = () => {
   const services = [
     {
       icon: Activity,
-      title: "Livestock Fattening",
-      description: "Supplying high quality fattened livestock, raised with modern technique and sustainable Practices",
+      title: "Livestock Supply",
+      description: "Supply high quality livestock, raised with modern technique and sustainable Practices",
       image: cattleFacility,
     },
     {
