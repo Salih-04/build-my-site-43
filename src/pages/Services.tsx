@@ -13,7 +13,7 @@ const Services = () => {
     {
       icon: Activity,
       title: "Livestock Supply",
-      description: "fatten and supply high quality livestock, raised with modern technique and Sustainable Practices.",
+      description: "Supply high quality livestock, raised with modern technique and Sustainable Practices.",
       image: "/lovable-uploads/06633a56-cb23-469a-84cc-7acf38e3477f.png",
       features: [
         "supply high quality cattle",
