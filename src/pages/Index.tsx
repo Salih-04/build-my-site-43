@@ -14,10 +14,10 @@ import testimonialImage from "/lovable-uploads/51e9d36d-7ba4-45f6-9b96-469598617
 const Index = () => {
   const services = [
     {
-      icon: Activity,
-      title: "Livestock Supply",
-      description: "Supply high quality livestock, raised with modern technique and sustainable Practices",
-      image: cattleFacility,
+      icon: TrendingUp,
+      title: "E-commerce and E-learning Platform",
+      description: "Legebere digital Platform that connects Livestock farmers with markets, input suppliers, Financial services, veterinary care providers, and educational content to help them grow sustainably and increase their income",
+      image: "/lovable-uploads/legebere-logo.png",
     },
     {
       icon: Users,
@@ -26,10 +26,10 @@ const Index = () => {
       image: "/lovable-uploads/farmer-training-new.jpg",
     },
     {
-      icon: TrendingUp,
-      title: "E-commerce and E-learning Platform",
-      description: "Legebere digital Platform that connects Livestock farmers with markets, input suppliers, Financial services, veterinary care providers, and educational content to help them grow sustainably and increase their income",
-      image: "/lovable-uploads/legebere-logo.png",
+      icon: Activity,
+      title: "Livestock Supply",
+      description: "Supply high quality livestock, raised with modern technique and sustainable Practices",
+      image: cattleFacility,
     },
   ];
 
