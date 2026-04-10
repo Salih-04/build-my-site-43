@@ -168,7 +168,7 @@ const About = () => {
             <Card className="text-center">
               <CardHeader>
                 <CardTitle>Abdulaziz Nejib</CardTitle>
-                <CardDescription>Co-founder, Software Developer</CardDescription>
+                <CardDescription>Software Developer</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
