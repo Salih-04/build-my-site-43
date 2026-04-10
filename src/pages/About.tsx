@@ -167,12 +167,12 @@ const About = () => {
             
             <Card className="text-center">
               <CardHeader>
-                <CardTitle>Abdelah Nasir</CardTitle>
-                <CardDescription>Project coordinator & Agricultural advisory lead</CardDescription>
+                <CardTitle>Abdulaziz Nejib</CardTitle>
+                <CardDescription>Co-founder, Software Developer</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Agricultural expert with a strong background in agribusiness consulting and Farmer Focused Project implementation. specializes in field operations, rural outreach and connecting Smallholders with inputs and services.
+                  Software development expert with strong experience in website and app development, BSC in computer science.
                 </p>
               </CardContent>
             </Card>
